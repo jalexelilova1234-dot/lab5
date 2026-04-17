@@ -1,0 +1,46 @@
+body {
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+div{
+    min-width: 800px;
+    margin: auto;
+}
+.margin {
+  border: 2px dashed grey;
+  min-width: 500px ;
+  height: 50vh;
+  padding: 30px;
+  position: relative;
+  padding-top: 50px;
+}
+.border {
+  background: seagreen;
+  padding: 60px;
+  position: relative;
+}
+.padding {
+  background: white;
+  padding: 25px;
+  position: relative;
+}
+.content {
+  border: 2px dashed lightgray;
+  padding: 40px;
+  text-align: center;
+}
+.label {
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  margin-top: 10px;
+  transform: translateX(-50%);
+  background: white;
+  padding: 6px;
+  font-size: 14px;
+  color: #333;
+}
