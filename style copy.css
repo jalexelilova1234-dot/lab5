@@ -1,0 +1,22 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 200px;
+    padding: 10px;
+    width: 100px;
+}
+
+.item {
+    background: green;
+    color: white;
+    padding: 10px;
+    
+}
